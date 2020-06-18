@@ -1,0 +1,115 @@
+*{margin: 0;padding: 0;list-style: none;font-family: 'Raleway', sans-serif; box-sizing: border-box;}
+body{background-color: #f8f8f8;}
+
+main{
+    width: 30%;
+    /* height: 1600px; */
+    /* background-color: #999999; */
+    float: left;
+}
+#right{
+    width:70%;
+    /* height: 1600px; */
+    /* background-color: #f1f1f1; */
+    float: right;
+}
+.icon{
+    width: 100%;
+    height: 50px;
+    background-color: #888888;
+}
+.icon i{
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height:50px;
+    font-size: 26px;
+    background-color: #679b9b;
+    color: #f8f8f8;
+    cursor: pointer;
+}
+.icon i:hover{background-color: #f8f8f8;color: #888888;}
+/* #logo{background-color: #f8f8f8;} */
+#logo img{
+    padding: 10px 10px;
+}
+main ul{
+    width: 100%;
+    height: 100%;
+    /* background-color: #f8f8f8; */
+}
+main ul li{
+    /* background-color: #666666; */
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+main ul li:hover{
+    background-color: #fde2e2; color: #888888;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    background-color: #ffb6b6;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 300px;
+}
+.box{
+    /* width:97%; */
+    height: 30%;
+    background-color: #aacfcf;
+    margin:20px 0 20px 0;
+    padding: 20px;
+}
+.box >p{
+    margin-bottom: 10px;
+}
+.box .top_font{
+    font-size: 50px;
+    font-weight: bold;
+}
+.box .bottom_font{
+    font-size: 25px;
+    font-weight: 400;
+}
+.box > span{
+    /* width: 100px;
+    height: 50px; */
+    /* background-color: ; */
+    text-align: center;
+    line-height: 50px;
+    background-color: #ffb6b6;
+    cursor: pointer;
+    padding: 10px;
+}
+.box >span:hover{background-color: #fde2e2;}
+.box .codingbox{
+    width: 100%;
+    height: 50%;
+    background-color: #F1F1F1;
+    margin: 10px 0 20px 0;
+    margin: auto;
+    /* overflow: scroll; */
+}
+footer{background-color: #aacfcf;height: 100px;}
+footer a{
+    color: #888888;
+    margin-left: 20px;
+    line-height: 100px;
+}
+.greenline{
+    background-color: #679b9b;
+    height: 100%;width:1%;
+    float: left;
+}
+.code{
+    font-size: 16px;
+    padding: 20px;
+}
+
+
