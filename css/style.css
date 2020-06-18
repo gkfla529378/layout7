@@ -96,7 +96,7 @@ header{
     margin: auto;
     /* overflow: scroll; */
 }
-footer{background-color: #aacfcf;height: 100px;}
+footer{background-color: #aacfcf;height: 100px;color: #888888;}
 footer a{
     color: #888888;
     margin-left: 20px;
